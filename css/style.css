@@ -24,15 +24,6 @@ body{
     display: grid;
     place-items: center;
 }
-@media screen and (max-width: 568px) {
-    .container{
-        grid-template-columns: 1fr;
-        grid-template-rows: auto 1fr ;
-    }
-    .sous-container{
-        padding: .3rem;
-    }
-}
 .title{
     font-size: 2rem;
     transition: var(--transition);
