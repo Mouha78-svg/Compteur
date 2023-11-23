@@ -61,6 +61,11 @@ body{
     box-shadow: 1px 2px hsl(0 0% 0% /1);
     transition: var(--transition);
 }
+@media screen and (min-width:768px){
+    .sous-container{ padding: 0;
+                    margin-bottom: 0;
+                   }
+}
 .container .sous-container:hover{
     transform: scale(1.1);
 }
